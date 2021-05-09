@@ -53,6 +53,8 @@ a:active {
     padding: 5px;
     margin: 0 auto;
     display: block;
+    outline: none;
+    font-size: 17px;
 }
 
 .buttons {
