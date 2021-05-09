@@ -1,0 +1,45 @@
+body {
+    background: white;
+    height: 100%;
+}
+
+/* Styling all links */
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    text-decoration: underline;
+  }
+
+/* Positioning Navigation Bar */
+
+
+
+
+  /* Positioning and Sizing Google Logo */
+
+.logo {
+    width: auto;
+    height: auto;
+  }
+
+  /* Positioning, Styling and Sizing search box */
+
+
+
+.buttons {
+    text-align: center;
+    padding: 10px;
+}
