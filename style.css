@@ -25,7 +25,34 @@ a:active {
 
 /* Positioning Navigation Bar */
 
+.nav {
+  list-style: none;
+  padding: auto;
+  font-size: 15px;
+  margin-left: 1em;
+  margin-top: 1.5em;
+  word-spacing: 0.5em;
+}
 
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+  margin-left: 84%;
+}
+
+.profile {
+  float: right;
+  margin-right: 1em;
+}
+
+.image {
+  border-radius: 50%;
+  margin-top: -0.3em;
+  float: right;
+}
 
 
   /* Positioning and Sizing Google Logo */
@@ -39,8 +66,10 @@ a:active {
   .logo {
     width: auto;
     height: auto;
-    margin-top: 9em;
+    margin-top: 12%;
     margin-bottom: auto;
+    margin-left: 43.5%;
+    margin-right: auto;
   }
 
   /* Positioning, Styling and Sizing search box */
@@ -51,7 +80,8 @@ a:active {
     border-radius: 24px;
     border: 1px solid grey;
     padding: 5px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
     outline: none;
     font-size: 17px;
