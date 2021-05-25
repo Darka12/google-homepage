@@ -3,7 +3,152 @@ body {
     height: 100%;
 }
 
-/* Styling all links */
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-start {
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.nav-end {
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 16px;
+}
+
+div a {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 8%;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.box {
+  width: 584px; 
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 24px;
+  box-shadow: none;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-submit {
+  padding: 12px;
+  background-color: white;
+  box-shadow: none;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #e8ebed;
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.button-lucky {
+  padding: 12px;
+  background-color: white;
+  box-shadow: none;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #e8ebed;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.button-submit:hover {
+  border-style: solid;
+  border-color: #d7d8d9;
+}
+
+.button-lucky:hover {
+  border-style: solid;
+  border-color: #d7d8d9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styling all links 
 
 a:link {
     text-decoration: none;
@@ -23,7 +168,7 @@ a:active {
     text-decoration: underline;
   }
 
-/* Positioning Navigation Bar */
+
 
 .nav {
   list-style: none;
@@ -55,7 +200,7 @@ a:active {
 }
 
 
-  /* Positioning and Sizing Google Logo */
+  
 
   .logo-container {
       display: flex;
@@ -68,11 +213,11 @@ a:active {
     height: auto;
     margin-top: 12%;
     margin-bottom: auto;
-    margin-left: 43.5%;
+    margin-left: auto;
     margin-right: auto;
   }
 
-  /* Positioning, Styling and Sizing search box */
+  
 
 .box {
     width: 400px;
@@ -91,3 +236,11 @@ a:active {
     text-align: center;
     padding: 10px;
 }
+
+
+
+.leftb {
+  
+
+}
+*/
