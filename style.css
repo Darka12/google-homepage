@@ -119,11 +119,47 @@ div a {
 .button-submit:hover {
   border-style: solid;
   border-color: #d7d8d9;
+  cursor: pointer;
 }
 
 .button-lucky:hover {
   border-style: solid;
   border-color: #d7d8d9;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #e8ebed;
+  bottom: 0;
+  position: absolute;
+  margin-left: -8px;
+}
+
+.footer-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.footer-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.footer-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  font-size: 16px;
 }
 
 
@@ -139,108 +175,3 @@ div a {
 
 
 
-
-
-
-
-
-
-
-
-
-/* Styling all links 
-
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
-  }
-  
-a:hover {
-    text-decoration: underline;
-  }
-  
-a:active {
-    text-decoration: underline;
-  }
-
-
-
-.nav {
-  list-style: none;
-  padding: auto;
-  font-size: 15px;
-  margin-left: 1em;
-  margin-top: 1.5em;
-  word-spacing: 0.5em;
-}
-
-.left {
-  text-align: left;
-}
-
-.right {
-  text-align: right;
-  margin-left: 84%;
-}
-
-.profile {
-  float: right;
-  margin-right: 1em;
-}
-
-.image {
-  border-radius: 50%;
-  margin-top: -0.3em;
-  float: right;
-}
-
-
-  
-
-  .logo-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .logo {
-    width: auto;
-    height: auto;
-    margin-top: 12%;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  
-
-.box {
-    width: 400px;
-    height: 30px;
-    border-radius: 24px;
-    border: 1px solid grey;
-    padding: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    outline: none;
-    font-size: 17px;
-}
-
-.buttons {
-    text-align: center;
-    padding: 10px;
-}
-
-
-
-.leftb {
-  
-
-}
-*/
