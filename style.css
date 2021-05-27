@@ -86,6 +86,10 @@ div a {
   border-style: solid;
   border-width: 1px;
   background-color: white;
+  outline: none;
+  font-size: 18px;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .buttons {
@@ -162,13 +166,30 @@ footer {
   font-size: 16px;
 }
 
+.country {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #e8ebed;
+  position: absolute;
+  margin-left: -8px;
+  bottom: 32px;
+}
 
+.country-text {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
 
-
-
-
-
-
+i.custom {
+  font-size: 1.4em; 
+  color: gray;
+  position: absolute;
+  filter: contrast(0);
+  background-position: -248px -35px;
+  margin: 30px 30px 30px 10px;
+}
 
 
 
